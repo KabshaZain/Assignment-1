@@ -1,0 +1,7 @@
+"""
+Write a Python program which takes two inputs from the user and prints them addition.
+"""
+num1=int(input("Enter the first number: "))
+num2=int(input("Enter the second name: "))
+num3= num1+num2
+print(num1, "+", num2,"=", num3)
