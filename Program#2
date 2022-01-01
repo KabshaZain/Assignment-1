@@ -1,0 +1,22 @@
+"""
+Write a Python program to get the python version you are using.
+"""
+print("""
+Following is a step-by-step tutorial to install Python 3.10.1 in windows 10.
+STEP 1: Search "install python 3" on your search engine.
+
+STEP 2:Click the resulting link showing "Download Python| Python.org".
+You will be redirected to the official website of Python.
+
+STEP 3:Click the rectangular box which states "Download Python 3.10.1".
+
+STEP 4:Once it has been downloaded, open the application.
+
+STEP 5: Select the option "Add Pyhton 3.10.1 to PATH".
+
+STEP 6: Click "Install Now".
+
+Step 7: Once installation setup is successful, click 'close'.
+
+***CONGRATULATIONS!! YOU HAVE SUCCESSFULLY INSTALLED PYTHON 3.10.1***
+""")
