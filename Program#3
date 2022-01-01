@@ -1,0 +1,17 @@
+"""
+Write a Python program to display current date and time.
+"""
+
+import datetime
+import pytz
+time_now_zone = datetime.datetime.now(pytz.timezone("Asia/Karachi"))
+#print("Current Time in 'Pakistan' is : ", time_now_zone)
+#print("Set Timezone : ", time_now_zone.tzinfo)
+
+dt_string = time_now_zone .strftime("%d/%m/%Y %H:%M:%S")
+#print("Current date and time in Pakistan is ",dt_string )	
+
+dt_string = time_now_zone .strftime("%d/%m/%Y ")
+print("Current date in Pakistan is ",dt_string )	
+dt_string = time_now_zone .strftime("%H:%M:%S")
+print("Current time in Pakistan is ",dt_string )
